@@ -21,7 +21,7 @@ docker exec -it <CONTAINER ID> bash
 ```
 and your in. You now have `tensorflow` + `golang` available.
 
-# Confirm Golang and Tensorlfow Installation
+# Confirm Golang and Tensorflow Installation
 
 Run the following commands:
 ```
