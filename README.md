@@ -1,8 +1,8 @@
 # Installation
 `git clone https://github.com/ctava/tensorflow-go-opslist.git`
 
-```
 Run the following commands:
+```
 cd tensorflow-go-opslist
 docker build -t tensorflow-go-opslist .
 docker run -p 8888:8888 -d tensorflow-go-opslist
@@ -17,8 +17,9 @@ docker exec -it <CONTAINER ID> bash
 and your in. You now have `tensorflow` + `golang` available.
 
 # Confirm Golang and Tensorlfow Installation
-```
+
 Run the following commands:
+```
 go version
 cd src/github.com/ctava/tensorflow-go-version
 go run main.go
