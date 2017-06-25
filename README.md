@@ -9,8 +9,11 @@ docker run -p 8888:8888 -d tensorflow-go-opslist
 docker ps
 ```
 Example output:
-`CONTAINER ID        IMAGE  `                  
-`e726f3ee010c        tensorflow-go-opslist  `  
+
+| CONTAINER ID  | IMAGE                 | 
+| ------------- | --------------------- |
+| e726f3ee010c  | tensorflow-go-opslist | 
+ 
 
 take the CONTAINER ID and add it to the following command:
 ```
