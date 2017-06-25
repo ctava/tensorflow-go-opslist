@@ -8,10 +8,11 @@ docker build -t tensorflow-go-opslist .
 docker run -p 8888:8888 -d tensorflow-go-opslist
 docker ps
 
-CONTAINER ID        IMAGE                    COMMAND             CREATED             STATUS              PORTS                         NAMES
-e726f3ee010c        tensorflow-go-opslist    "/run_jupyter.sh"   25 seconds ago      Up 23 seconds       6006/tcp, 0.0.0.0:8888->8888
-
+CONTAINER ID        IMAGE                    
+e726f3ee010c        tensorflow-go-opslist    
+```
 take the CONTAINER ID and add it to the following command:
+```
 docker exec -it <CONTAINER ID> bash
 ```
 and your in. You now have `tensorflow` + `golang` available.
