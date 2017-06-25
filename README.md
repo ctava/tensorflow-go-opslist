@@ -37,5 +37,5 @@ go run main.go
 ```
 You should see a list of all of the ops available in tensorflow
 
-#Additional resources
+# Additional resources
 [gopherdata](https://github.com/gopherdata/resources)
